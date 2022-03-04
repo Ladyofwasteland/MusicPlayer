@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		9CC32BFF27D239EF0001B267 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC32BFE27D239EF0001B267 /* AppDelegate.swift */; };
 		9CC32C0127D239EF0001B267 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC32C0027D239EF0001B267 /* SceneDelegate.swift */; };
-		9CC32C0327D239EF0001B267 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC32C0227D239EF0001B267 /* ViewController.swift */; };
-		9CC32C0627D239EF0001B267 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CC32C0427D239EF0001B267 /* Main.storyboard */; };
+		9CC32C0627D239EF0001B267 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CC32C0427D239EF0001B267 /* Main.storyboard */; settings = {ASSET_TAGS = (NEXT, ); }; };
 		9CC32C0827D239F10001B267 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CC32C0727D239F10001B267 /* Assets.xcassets */; };
 		9CC32C0B27D239F10001B267 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CC32C0927D239F10001B267 /* LaunchScreen.storyboard */; };
+		9CC32C1327D23ABE0001B267 /* GenreButtonScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC32C1227D23ABE0001B267 /* GenreButtonScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9CC32BFB27D239EF0001B267 /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CC32BFE27D239EF0001B267 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CC32C0027D239EF0001B267 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9CC32C0227D239EF0001B267 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9CC32C0527D239EF0001B267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CC32C0727D239F10001B267 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CC32C0A27D239F10001B267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CC32C0C27D239F10001B267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CC32C1227D23ABE0001B267 /* GenreButtonScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreButtonScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +58,8 @@
 			children = (
 				9CC32BFE27D239EF0001B267 /* AppDelegate.swift */,
 				9CC32C0027D239EF0001B267 /* SceneDelegate.swift */,
-				9CC32C0227D239EF0001B267 /* ViewController.swift */,
 				9CC32C0427D239EF0001B267 /* Main.storyboard */,
+				9CC32C1227D23ABE0001B267 /* GenreButtonScreenViewController.swift */,
 				9CC32C0727D239F10001B267 /* Assets.xcassets */,
 				9CC32C0927D239F10001B267 /* LaunchScreen.storyboard */,
 				9CC32C0C27D239F10001B267 /* Info.plist */,
@@ -94,6 +94,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					NEXT,
+				);
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
@@ -138,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CC32C0327D239EF0001B267 /* ViewController.swift in Sources */,
+				9CC32C1327D23ABE0001B267 /* GenreButtonScreenViewController.swift in Sources */,
 				9CC32BFF27D239EF0001B267 /* AppDelegate.swift in Sources */,
 				9CC32C0127D239EF0001B267 /* SceneDelegate.swift in Sources */,
 			);
